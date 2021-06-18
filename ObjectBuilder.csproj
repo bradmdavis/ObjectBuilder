@@ -118,6 +118,7 @@
       <SubType>Code</SubType>
     </Compile>
     <Compile Include="Program.cs" />
+    <Compile Include="Template.cs" />
     <Compile Include="Utility.cs" />
   </ItemGroup>
   <ItemGroup>
