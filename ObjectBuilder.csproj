@@ -126,6 +126,10 @@
       <DependentUpon>ObjectBuilder.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
+  <ItemGroup>
+    <Content Include="ThirdParty\Microsoft.ApplicationBlocks.Data.dll" />
+    <Content Include="ThirdParty\Microsoft.ApplicationBlocks.Data.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent>
